@@ -1,0 +1,40 @@
+
+  Cette application permet à lutilisateur de rennomer les fichiers et les repertoires par plusieurs maniéres.
+les differentes fonctionnalités de cette application sont:
+
+-show_usage() :qui affiche sur la sortie standard le message
+' rename.sh: [-h|--help] [-T] [-t] [-n] [-N] [-d] [-m] [-s] chemin..'
+
+-Tester la presence des arguments
+
+-HELP():qui permet d’afficher le help à partir d’n fichier texte contenant une
+description bien détaillée de l’application
+
+-Miniscule_nom():une fonction qui change tous les noms de fichier ou du répertoire passé en
+paramètre en minuscule
+
+-Majuscule_Nom():une fonction qui change tous les noms de fichier ou du répertoire passé en
+paramètre en majuscule
+
+-Espace_nomf():une fonction qui permet de rennomer les fichiers dont le nom contient des espaces
+
+-Ajouter_d_nomrep():une fonction qui ajoute _d aux noms des repertoires passés en paramètre
+
+-Extension_enlever():fonction qui permet d’enlever l’extension du nom du fichier
+
+-Estension_ajouter():fonction qui prend en argument le nom d’un fichier et une extension.La fonction
+renomme le fichier en ajoutant l’extension
+
+Options:
+
+-h:Pour afficher le help détaillé à partir d’un fichier texte
+
+-g:Pour afficher un menu textuel et gérer les fonctionnalité de façon
+graphique(Utilisation de YAD)
+
+-v: Pour afficher le nom des auteurs et version du code
+
+-m: Pour afficher un menu textuel
+
+
+
